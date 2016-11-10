@@ -1,27 +1,23 @@
-Ì©Ì¹Äá¿ËºÅÉú»¹Õß·ÖÎö
+æ³°å¦å°¼å…‹å·ç”Ÿè¿˜è€…åˆ†æ
 ====================
 
 # Python requirement
 
-## °²×° conda °ü¹ÜÀíÆ÷
+## Install conda
 
 ### Python 2
     wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
     bash Miniconda2-latest-Linux-x86_64.sh
     conda list
 
-## ½¨Á¢²¢¼¤»îĞéÄâ»·¾³
+## Create env
     conda create -n py2env python=2
-    # ¼¤»îĞéÄâ»·¾³
+    # Acivate
     source activate py2env
-    # ÍË³öĞéÄâ»·¾³
+    # Deactivate
     source deactivate
     
-## °²×°ĞéÄâ»·¾³    
-    conda install -n py2env pandas
-    conda install -n py2env numpy
-    conda install -n py2env matplotlib
-    conda install -n py2env jupyter
-    conda install -n py2env scikit-learn
+## Install package
+    conda install -n py2env pandas numpy matplotlib jupyter scikit-learn
 
 
