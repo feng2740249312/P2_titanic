@@ -18,6 +18,6 @@
     source deactivate
     
 ## Install package
-    conda install -n py2env pandas numpy matplotlib jupyter scikit-learn
+    conda install -n py2env pandas numpy matplotlib jupyter scikit-learn jsonschema
 
 
