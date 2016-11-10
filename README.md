@@ -1,7 +1,7 @@
 泰坦尼克号生还者分析
 ====================
 
-# Python prepare
+# Python requirement
 
 ## 安装 conda 包管理器
 
