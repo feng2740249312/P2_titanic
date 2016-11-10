@@ -10,7 +10,7 @@
     bash Miniconda2-latest-Linux-x86_64.sh
     conda list
 
-## Create env
+## Create envirement
     conda create -n py2env python=2
     # Acivate
     source activate py2env
